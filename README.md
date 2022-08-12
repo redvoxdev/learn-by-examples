@@ -2,3 +2,6 @@
 
 ### custom-range-slider
 :eyes: [link on deploy](https://redvoxdev.github.io/learn-by-examples/custom-range-slider) :point_left:
+
+### css-variables
+:eyes: [link on deploy](https://redvoxdev.github.io/learn-by-examples/css-variables) :point_left:
