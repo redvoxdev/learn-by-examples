@@ -8,3 +8,6 @@
 
 ### react-github-users
 :eyes: [link on deploy](https://redvoxdev.github.io/learn-by-examples/react-github-users) :point_left:
+
+### whack-a-mole-game
+:eyes: [link on deploy](https://redvoxdev.github.io/learn-by-examples/whack-a-mole-game) :point_left:
