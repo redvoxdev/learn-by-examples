@@ -11,3 +11,6 @@
 
 ### whack-a-mole-game
 :eyes: [link on deploy](https://redvoxdev.github.io/learn-by-examples/whack-a-mole-game) :point_left:
+
+### card-deck (codejam rs-school)
+:eyes: [link on deploy](https://redvoxdev.github.io/learn-by-examples/card-deck) :point_left:

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Card-deck</title>
+</head>
+<body>
+  
+  <div class="screen">
+    <h1>Замешивание колоды</h1>
+    <a href="#" class="start" id="start">Начать замешивание</a>
+  </div>
+
+  <div class="screen">
+    <h1>Выберите древнего</h1>
+    <ul class="ancients-list" id="ancients-list">
+      <li>
+        <img class="ancient-elem" data-ancient="chtulhu" src="assets/ancients/cthulthu.webp" alt="First ancient, Chtulthu">
+      </li>
+      <li>
+        <img class="ancient-elem" data-ancient="shubniggurath" src="assets/ancients/shubniggurath.webp" alt="Second ancient, ShubNiggurath">
+      </li>
+      <li>
+        <img class="ancient-elem" data-ancient="iogsothoth" src="assets/ancients/iogsothoth.webp" alt="Third ancient, IogSothoth">
+      </li>
+      <li>
+        <img class="ancient-elem" data-ancient="azathoth" src="assets/ancients/azathoth.webp" alt="Fourth ancient, Azathoth">
+      </li>
+    </ul>
+  </div>
+
+  <div class="screen">
+    <h1>Выберите сложность</h1>
+    <ul class="complexity-list" id="complexity-list">
+      <li>
+        <button class="complexity-btn" data-complexity="complexity1">
+          очень легко
+        </button>
+      </li>
+      <li>
+        <button class="complexity-btn" data-complexity="complexity2">
+          легко
+        </button>
+      </li>
+      <li>
+        <button class="complexity-btn" data-complexity="complexity3">
+          средне
+        </button>
+      </li>
+      <li>
+        <button class="complexity-btn" data-complexity="complexity4">
+          сложно
+        </button>
+      </li>
+      <li>
+        <button class="complexity-btn" data-complexity="complexity5">
+          очень сложно
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="screen">
+    <h3>Колода замешана, жмите на карту</h1>
+    <div class="board" id="board">
+      <div class="left-сolumn">
+        <h4>Первая стадия</h4>
+        <ul class="stage1">
+          <li>0</li>
+          <li>0</li>
+          <li>0</li>
+        </ul>
+        <h4>Вторая стадия</h4>
+        <ul class="stage2">
+          <li>0</li>
+          <li>0</li>
+          <li>0</li>
+        </ul>
+        <h4>Третья стадия</h4>
+        <ul class="stage3">
+          <li>0</li>
+          <li>0</li>
+          <li>0</li>
+        </ul>
+      </div>
+      <button class="restart-btn hide" id="restat-btn">
+        начать заново
+      </button>
+      <div class="right-сolumn">
+        <img class="img-next" id="img-next" src="assets/cardbg.webp" alt="Current card">
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="index.js"></script>
+</body>
+</html>
