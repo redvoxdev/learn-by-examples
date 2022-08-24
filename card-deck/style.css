@@ -111,7 +111,7 @@ h1 {
   justify-content: center;
   align-items: center;
   position: relative;
-  min-width: 500px;
+  min-width: 580px;
   background: linear-gradient(118.38deg, #29323c -4.6%, #485563 200.44%);
   box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
   border-radius: 30px;
@@ -165,8 +165,8 @@ h1 {
 
 .right-сolumn img {
   cursor: pointer;
-  width: 280px;
-  height: 410px;
+  width: 360px;
+  height: 530px;
 }
 
 .hide {
@@ -174,9 +174,8 @@ h1 {
 }
 
 .restart-btn {
-  position: absolute;
-  left: 30px;
-  bottom: 20px;
+  position: relative;
+  margin-top: 10px;
   background-color: transparent;
   border: 2px solid #C0C0C0;
   color: #fff;
